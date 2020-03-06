@@ -1,5 +1,5 @@
-import { TodoRenderer } from 'src/app/todo-components/TodoRenderer';
 import { Todo } from './Todo';
+import { TodoRenderer } from './TodoRenderer';
 
 export class EditableTodo extends Todo {
   changeTitle(title: string): void {

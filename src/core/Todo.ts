@@ -1,4 +1,4 @@
-import { TodoRenderer } from '../app/todo-components/TodoRenderer';
+import { TodoRenderer } from './TodoRenderer';
 
 export class Todo {
   id: string = '';

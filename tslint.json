@@ -36,7 +36,7 @@
       {
         "grouped-imports": true,
         "groups": [
-          { "match": "react", "order": 1 },
+          { "match": "@angular/.*", "order": 1 },
           { "match": "\\.scss$", "order": 4 },
           { "match": "(^src/)|(^\\.)", "order": 3 },
           { "match": ".*", "order": 2 }
